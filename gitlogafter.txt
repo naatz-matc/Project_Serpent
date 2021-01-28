@@ -1,0 +1,11 @@
+commit 4f109de75d37e5ef9119bd2324d78c0fcfc3ae68
+Author: Sean Naatz <naatz@madisoncollege.edu>
+Date:   Wed Jan 27 21:40:49 2021 -0600
+
+    Added a new file
+
+commit 1e9515edb210028ec24d7bba8522714262bb7636
+Author: Sean Naatz <naatz@madisoncollege.edu>
+Date:   Wed Jan 27 21:28:49 2021 -0600
+
+    Initial commit of GitHub exercise
