@@ -40,9 +40,10 @@ def parse_header():
 def parse_json():
     json_raw = requests.get(URL)
     myDict = json.loads(json_raw.text)
-    answerDict = myDict["Music And Books"][4]
-    answer = answerDict["author"]
-    return answer
+    for item in myDict["Music And Books"]:
+        subDictionary = item
+        if subDictionary["title"] == '1984':
+            return subDictionary["author"]
 
 def socket_client():
     RHOST = f'{args.varIP}'
